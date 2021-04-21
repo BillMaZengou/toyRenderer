@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		698705AE262F25C800999CB9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 698705AD262F25C800999CB9 /* main.cpp */; };
+		698705B5262F28F000999CB9 /* tgaimage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 698705B4262F28F000999CB9 /* tgaimage.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		698705AA262F25C800999CB9 /* toyRenderer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = toyRenderer; sourceTree = BUILT_PRODUCTS_DIR; };
 		698705AD262F25C800999CB9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		698705B4262F28F000999CB9 /* tgaimage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tgaimage.cpp; sourceTree = "<group>"; };
+		698705B6262F28F900999CB9 /* tgaimage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tgaimage.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		698705AC262F25C800999CB9 /* toyRenderer */ = {
 			isa = PBXGroup;
 			children = (
+				698705B6262F28F900999CB9 /* tgaimage.h */,
+				698705B4262F28F000999CB9 /* tgaimage.cpp */,
 				698705AD262F25C800999CB9 /* main.cpp */,
 			);
 			path = toyRenderer;
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				698705B5262F28F000999CB9 /* tgaimage.cpp in Sources */,
 				698705AE262F25C800999CB9 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
